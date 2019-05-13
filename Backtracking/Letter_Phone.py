@@ -13,6 +13,7 @@
 
 def letterCombinationUtil(A,B,C,Mapping):
     if len(A)==0:
+        C.append(B+[])
         return
     for i in range(len(A)):
         for j in range(len(Mapping[A[i]])):
@@ -36,6 +37,7 @@ def letterCombinations(A):
     Mapping["0"] = "0"
     C = []
     letterCombinationUtil(A,[],C,Mapping)
+    return C
 
-letterCombinations("23")
+print(letterCombinations("23"))
 
