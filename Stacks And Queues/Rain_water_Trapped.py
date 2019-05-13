@@ -23,7 +23,7 @@ def trap(A):
             left_greater_ele.append(stack[-1])
         
     
-    #print(left_greater_ele)
+   # print(left_greater_ele)
     right_greater_ele = [0]*n
     stack = [A[n-1]]
     right_greater_ele[-1] = -1
