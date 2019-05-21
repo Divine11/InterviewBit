@@ -16,15 +16,15 @@ class TreeNode:
         self.right = None
         
 def createTree():
-    root = TreeNode(100)
-    root.left = TreeNode(98)
-    root.right = TreeNode(102)
-    root.left.left = TreeNode(96)
-    root.left.right = TreeNode(99)
-    root.left.left.right = TreeNode(97)
-    root.left.left.left = TreeNode(95)
-    root.right.left = TreeNode(103)
-    root.right.right = TreeNode(104)
+    root = TreeNode(10)
+    root.left = TreeNode(9)
+    root.right = TreeNode(8)
+    root.left.left = TreeNode(7)
+    root.left.right = TreeNode(6)
+    root.left.left.right = TreeNode(5)
+    root.left.left.left = TreeNode(4)
+    root.right.left = TreeNode(3)
+    root.right.right = TreeNode(2)
     return root
 
 def inorderTraversal(A):
